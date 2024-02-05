@@ -1,0 +1,19 @@
+
+html {
+    /* define light-mode variable overrides here */
+    --primary-color:#740c23;
+    --primary-dark-color:	#3f0411;
+    --primary-light-color:	#a3203c;
+    --primary-lighter-color:	#d13154;
+    --primary-lightest-color:	#ffb9c8;
+    --content-maxwidth:auto
+}
+
+html.dark-mode {
+    --primary-color:#1982d2;
+    --primary-dark-color:	#5ca8e2;
+    --primary-light-color:	#4779ac;
+    --primary-lighter-color:	#191e21;
+    --primary-lightest-color:	#191a1c;
+    --content-maxwidth:auto
+}
